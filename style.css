@@ -1,0 +1,194 @@
+body{
+    background: url('image/photo.png') no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+    position: relative;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.2;
+}
+.body-overlay{
+    top: -48px;
+    height: 109%;
+}
+
+/* first section */
+.s1{
+    width: 100%;
+    height: 100%;
+}
+.s1 > div:first-child{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    font-family: Abril Fatface;
+}
+.shadow{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.search{
+    width: 100%;
+}
+.search input{
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+.search a{
+    padding: 15px;
+    border-radius: 0 5px 5px 0;
+}
+.custom-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #E43E55;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 30px;
+}
+.custom-btn:hover{
+    background-color: #e8001f;
+}
+
+.top-search{
+    margin-left: -150px;
+}
+.up-down-buttons{
+    height: 18%;
+    right: 60px;
+    bottom: -60px;
+}
+.up-down-buttons a{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* second section */
+.s2{
+    padding-top: 240px !important;
+}
+.background-box{
+    background: #FCECEE;
+    width: 50%;
+    height: 90%;
+    left: 10%;
+    top: -4%;
+}
+.adventure-box span{
+    width: 40%;
+    bottom: 20px;
+    left: calc(50% - 20%);
+}
+.adventure-box span img{
+    width: 50%;
+}
+
+a.safari-box{
+    height: 100%;
+}
+a.safari-box > img{
+    height: 100%;
+}
+
+/* third section */
+.s3-bg{
+    background-color: #E5F0FA;
+}
+.title-box{
+    width: 80%;
+    left: 0;
+    top: 42%;
+}
+.title-box p{
+    font-size: 14px;
+}
+.title-box h6{
+    color: #0066CC;
+    font-size: 18px;
+}
+.price-box{
+    width: 65%;
+}
+.price-box b{
+    width: 120%;
+}
+.cash-box{
+    width: 85%;
+}
+.cash-box b{
+    font-size: 14px;
+}
+
+/* fourth section */
+.s4{
+    background: url('image/photo1.png') no-repeat;
+    background-size: cover;
+}
+.s4 button.custom-btn{
+    padding: 10px 20px;
+    right: -1.5%;
+    bottom: 30%;
+    border-radius: 0;
+}
+.para-box{
+    bottom: 0;
+    left: 5%;
+}
+/* footer */
+.footer{
+    background: url('image/footerbg.png') no-repeat;
+    background-size: cover;
+}
+.footer-overlay{
+    opacity: 0.7;
+}
+.footer p{
+    margin-bottom: 0;
+    color: #999999;
+}
+.news-letter input[type='text']{
+    background-color: rgb(167, 167, 167);
+    color: rgb(232, 232, 232);
+    outline: none;
+}
+.news-letter input::placeholder{
+    color: rgb(232, 232, 232);
+}
+.news-letter a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p.copy{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .s4{
+        background: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .custom-image{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 530px) {
+    .custom-column{
+        flex-direction: column;
+    }
+}

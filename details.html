@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="details.css">
+    <title>Adventure Man - Details Page</title>
+</head>
+
+<body>
+    <header class="position-fixed bg-black">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">
+                    <img class="img-fluid" src="image/logo.png" alt="logo" width="200px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white me-2" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Fixed Departures
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white me-2" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Travel Options
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white me-2" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Premium Adventures
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gear
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#"
+                    class="call-box mx-auto text-white d-inline-flex justify-content-between align-items-center text-decoration-none me-5">
+                    <i class="fa fa-phone"></i>
+                    <p class="mb-0 mx-2">+977 9800000011</p>
+                </a>
+                <a href="#" class="btn btn-primary d-flex justify-content-between align-items-center">
+                    <i class="fa fa-user"></i>
+                    <p class="mb-0 mx-2">Sign In</p>
+                    <i class="fa fa-caret-down"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="details-s1">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-12 py-5">
+                        <h1 class="title fw-bolder mb-4">Safari Tours & Adventures</h1>
+                        <p> <i>Pssst!</i> There’s something truly heart-stopping about stepping into a different world
+                            where
+                            animals take center stage and humans are quiet spectators. Whether you’re focusing your lens
+                            on capturing the <b> Big Five </b> in the Serengeti, Tanzania, or searching for that classic
+                            David
+                            Attenborough moment amongst the colorful birds and steady-going sloths of the <b> Costa
+                                Rican
+                                jungle </b>, the world is full of wildlife experiences just waiting to be had!</p>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-12 p-4 d-flex align-items-center">
+                        <img class="img-fluid rounded-4" src="image/safari-image.jpg" alt="safari">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-12 p-4 d-flex align-items-center custom-search-box">
+                        <div class="d-flex flex-column border flex-grow-1 py-2 px-3 rounded-1 search-box">
+                            <label for="search" class="text-secondary">Adventue Style</label>
+                            <input class="border-0" type="search" name="search" id="search" value="Safari">
+                        </div>
+                        <div class="d-flex flex-column mx-2 border flex-grow-1 py-2 px-3 rounded-1 date-box">
+                            <label for="date" class="text-secondary">Anytime</label>
+                            <input class="border-0" type="date" name="date" id="date">
+                        </div>
+                        <a href="#" class="btn btn-primary px-5 flex-grow-1 custom-btn2">Search</a>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-end px-3">
+                        <div class="rating-box d-flex align-items-center">
+                            <div>
+                                <b>Excellent</b>
+                                <span class="ms-1">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </span>
+                            </div>
+                            <div class="mx-2 d-flex align-items-center">
+                                <b>3479</b>
+                                <p class="mb-0 ms-1">reviews on</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-star"></i>
+                                <b>Trustpilot</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 details-s2">
+            <div class="container">
+                <h2 class="fw-bolder mb-3 title">What to Expect on a Safari</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-3">
+                        <div class="safari-type-box">
+                            <img class="img-fluid" src="/safari/culture.jpg" alt="culture">
+                            <h5 class="fw-bold my-2">Delve into local culture</h5>
+                            <p>
+                                Apart from wildlife, on a Safari, you encounter the people who protect that wildlife.
+                                Connecting with indigenous people is part of the experience! What stories will the
+                                <b>Maasai</b> of Kenya share with you? Will witnessing a tiger in its natural habitat
+                                inspire
+                                you to join a local dance as the sun sets over Northern <b>India</b>?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-3">
+                        <div class="safari-type-box">
+                            <img class="img-fluid" src="/safari/nautre.jpg" alt="nature">
+                            <h5 class="fw-bold my-2">Witness geological wonders</h5>
+                            <p>
+                                Leave civilization behind and enter a realm of wonder where you’ll discover some of the
+                                world’s most spectacular landscapes. Imagine flying over the dramatic volcanic
+                                landscapes of the <b>Galapagos Islands</b>, brimming with undisturbed wildlife and
+                                unique natural features found nowhere else.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-3">
+                        <div class="safari-type-box">
+                            <img class="img-fluid" src="/safari/tree.jpg" alt="tree">
+                            <h5 class="fw-bold my-2">Stay under starry skies</h5>
+                            <p>
+                                After a day exploring the wild, there’s no better way to share the experience with your
+                                fellow wildlife enthusiasts than over a meal as the night envelopes your group. Relax in
+                                a <b>tent</b> or maybe a luxury lodge under the velvety night sky, far from any light
+                                pollution, with the stars shining like never before.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 p-3">
+                        <div class="safari-type-box">
+                            <img class="img-fluid" src="/safari/animal.jpg" alt="animal">
+                            <h5 class="fw-bold my-2">Face-to-face encounters</h5>
+                            <p>
+                                For an up-close encounter with a majestic beast such as a lion, this is the ultimate
+                                experience. How many times have you watched a documentary where you can observe
+                                spectacular species in their natural habitat? Experience it for yourself! A <b>game
+                                    drive</b> will offer you a chance to venture out for those unforgettable moments as
+                                close to the wild as humanly possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 details-s3">
+            <div class="container">
+                <h2 class="fw-bolder title mb-4">Your Safari Questions, Answered</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">How do I know if a safari is right for me?</h5>
+                            <p>
+                                A Safari tour is a multi-day experience where travelers can observe animals in the wild,
+                                most
+                                commonly in Africa. You should expect to explore multiple natural parks and regions in a
+                                single itinerary whilst also enjoying immersive cultural activities and excursions that
+                                can
+                                include horse riding, canoeing, and even hot air balloon rides!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">How much does a safari cost?</h5>
+                            <p>
+                                It largely depends on the length of your trip and the type of accommodation and
+                                amenities you choose. For example, the cost of a seven-day African safari can vary
+                                anywhere between US $600 to US $8,000 or more. TourRadar allows you to filter by
+                                destination, length of tour, and price range so you can find the perfect adventure for
+                                you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">Is going on a safari safe?</h5>
+                            <p>
+                                Safaris are generally perfectly safe as they are designed to get the guests as close to
+                                the wild as possible without any risks, even if some unexpected events happen—after all,
+                                that’s part of the thrill! Make sure to pay attention and follow instructions to have
+                                the time of your life. On TourRadar, we have search filters and customer reviews to
+                                guide you to the perfect adventure level for you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">Do I need travel insurance for a Safari?</h5>
+                            <p>
+                                Travel insurance is mandatory for most of the adventures on TourRadar and must be
+                                purchased before you start your travels. It covers trip cancellations, medical
+                                emergencies, lost or stolen baggage, and more. As you can imagine, this is extra
+                                important when going on a Safari, and in most cases, you can add travel insurance with
+                                <b> Cover Genius </b> directly to your TourRadar booking.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">When is the best time to go on a safari?</h5>
+                            <p>
+                                For an African Safari, the best time to go is during the dry season and around the time
+                                of the Great Migration. For Safari in Asia, you'll want to go from February to May to
+                                avoid getting soaked in the monsoons from June onward. On TourRadar, you can always make
+                                an inquiry with the operator of the tour you're interested in, as they have expert
+                                knowledge of the destination.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">What should I pack for a Safari?</h5>
+                            <p>
+                                When packing for a Safari, consider luggage allowances on small planes and the size of
+                                your vehicle, as you will likely be hopping between national parks and having to carry
+                                your belongings at certain points unless you book a more high-end adventure. Check our
+                                complete <b> Safari Packing List </b>to find out what essentials, clothes, gear, and
+                                medication to pack.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">Which country in Africa has the most animals?</h5>
+                            <p>
+                                Botswana ranks first in terms of diversity. Besides the Big Five (lions, leopards,
+                                rhinos, elephants, and buffalo), you will be able to spot a wide range of other
+                                wildlife. In Tanzania, you can witness the Great African Migration, which is a thrilling
+                                event with thousands of animals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                        <div class="bg-white p-4 rounded-1">
+                            <h5 class="mb-3 fw-bold">How do I book a Safari on Adventure Man?</h5>
+                            <p>
+                                Simply use our search engine to choose your destination, preferred dates, length of the
+                                tour, and price range to find your dream adventure. Then either start an inquiry to get
+                                answers to any questions you may have or fill out your details directly to secure your
+                                trip.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer py-5 text-white position-relative">
+        <div class="overlay footer-overlay"></div>
+        <div class="container z-5 position-relative">
+            <div class="row mb-5">
+                <h4 class="mb-4">Connecting people to experience the great outdoors</h4>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <p class="mb-1">Trekking in India</p>
+                    <p class="mb-1">Hot Air Ballooning in India</p>
+                    <p class="mb-1">Paragliding in India</p>
+                    <p class="mb-1">Bungee Jumping in India</p>
+                    <p class="mb-1">Camping in India</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <p class="mb-1">Skiing in India</p>
+                    <p class="mb-1">Weekend Getaways from Delhi</p>
+                    <p class="mb-1">Scuba Diving in India</p>
+                    <p class="mb-1">River Rafting in India</p>
+                    <p class="mb-1">Motorcycle Tours in India</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <p class="mb-1">Adventure Tours in India</p>
+                    <p class="mb-1">Wildlife Safari in India</p>
+                    <p class="mb-1">Desert Camel Safari in India</p>
+                    <p class="mb-1">Weekend Getaways from Bangalore</p>
+                    <p class="mb-1">Cycling Tours in India</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <p class="mb-1">Mountaineering in India</p>
+                    <p class="mb-1">Trekking in Bangalore</p>
+                    <p class="mb-1">Trekking in Manali</p>
+                    <p class="mb-1">Camping in Rishikesh</p>
+                    <p class="mb-1">River Rafting in Rishikesh</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+                    <h6 class="mb-4">Popular Treks</h6>
+                    <p>Chadar Trek</p>
+                    <p>Everest Base Camp Trek </p>
+                    <p>Triund Trek </p>
+                    <p>Kheerganga Trek </p>
+                    <p>Kedarkantha Trek</p>
+                    <p>Sandakphu Trek </p>
+                    <p>Kuari Pass Trek</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 mb-4">
+                    <h6 class="mb-4">Help</h6>
+                    <p>About Us</p>
+                    <p>Our Team</p>
+                    <p>Partner With Us</p>
+                    <p>Work With Us</p>
+                    <p>Contact Us</p>
+                    <p>FAQ's</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h6 class="mb-2">Subscribe for Our Newsletter</h6>
+                    <div class="mb-4 news-letter d-flex">
+                        <input class="px-2 rounded-0 border-0 " type="text" id="news-letter" name="news-letter"
+                            placeholder="Enter your email">
+                        <a href="#" class="custom-btn rounded-0">Subscribe</a>
+                    </div>
+                    <h6 class="mb-2">Stay Connected</h6>
+                    <span>
+                        <a href="#" class="text-white"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#" class="text-white mx-2"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-wordpress"></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <p class="copy fs-5">&copy; 2023 Adventure Man. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/27bd3bf8d7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
